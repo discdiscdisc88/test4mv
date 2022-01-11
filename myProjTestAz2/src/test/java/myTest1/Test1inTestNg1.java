@@ -38,15 +38,6 @@ public class Test1inTestNg1 {
 
 	}
 
-	@Test
-	public void test2() throws Exception {
-
-		driver.navigate().to("http://demo.guru99.com/test/newtours/register.php");
-		System.out.println("Test2 "+driver.getTitle());
-		AssertJUnit.assertEquals(driver.getTitle(), "Register: Mercury Tours");
-
-	}
-	
 	@AfterMethod
 	public void tearDown() throws Exception {
 		driver.manage().deleteAllCookies();
