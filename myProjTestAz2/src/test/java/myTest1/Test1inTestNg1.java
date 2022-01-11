@@ -43,7 +43,7 @@ public class Test1inTestNg1 {
 		driver.manage().deleteAllCookies();
 		Thread.sleep(2000);
 		driver.quit();
-		System.out.println("Exit");
+		System.out.println("Exittttttttttttt");
 	}
 
 }
